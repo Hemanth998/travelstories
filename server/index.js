@@ -13,5 +13,5 @@ require('./db')()
     });
   })
   .catch((err) => {
-    console.log(`Error in database connection : ${err.message}`);
+    console.error(`Error in database connection : ${err.message}`);
   });
