@@ -20,3 +20,6 @@
 
 - Likes is not part of v1, to be implemented in v2
 - Populate sample data, create Routes
+- Create routes folder
+- Create CRUD Routes for POSTS
+- push for April 6
