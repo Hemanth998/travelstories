@@ -13,4 +13,3 @@
 - Start the server only when db is connected
 - checkpoint - push the code since you have connected the DB
 - Design and create Blog database
-![travel_db_design_V1](https://user-images.githubusercontent.com/34683754/230307291-197b18c4-e714-470a-8aa7-baf2a56a82c0.png)
