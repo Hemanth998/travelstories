@@ -8,8 +8,8 @@
 - create app.js and run a server on PORT 5000
 - install pg package
 - install dotenv package- its just to set environment variables from a file called .env (no need in production or if you have environment variables already set up)
-- point to remember - .env file should be in same folder where we installed dotenv package otherise configure absolute of the .env file as an argument in config() method
-- add code connect POSTGRES db - done, go with client
+- point to remember - .env file should be in same folder where we installed dotenv package otherise configure absolute path of the .env file as an argument in config() method
+- add code connect to POSTGRES db - done, go with client
 - add dev dependency nodemon
 - Make db connection handle exception
 - Start the server only when db is connected
@@ -23,3 +23,14 @@
 - Create routes folder
 - Create CRUD Routes for POSTS
 - push for April 6
+- understood how modules work - if a function is exported from module, and imported in another module, that function can access variables from the exported module in other modules, since the variables and that function are part of same module, however the same variables cannot be accessed directly by other modules without exporting
+- refactor for DB and client connection
+
+- April 7 goals
+- Immplement Authentication, Authorization, Admin Auth role
+- Complete Basic Routes and additional routes for posts, places, users, auth, add protection to some routes
+- npm install jsonwebtoken
+- first step, add code create auth route to let user sign in and get a token, use jwt.sign ( Its a POST route)
+- Add Validations manually
+- Implement password hashing comparision using bcrypt
+- Implement protected routes, using auth middleware
